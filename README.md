@@ -31,7 +31,7 @@ Windows 10 veya 11 sistemlerinde bu işlemi gerçekleştirebilicek **Ventoy** ve
 ### Önyüklenebilir USB Belleği Oluşturmanın Adımları
 
 #### 1. Rufus'u İndirin
-- [Rufus'un resmi sitesini](https://rufus.ie/) ziyaret edin, ve sisteminize uygun olan sürümünü indirin.
+- [Rufus'un resmi sitesini](https://rufus.ie/) ziyaret edin ve sisteminize uygun olan sürümünü indirin.
 - Standart ve taşınabilir sürümlerden istediğinizi seçebilirsiniz.
 
 #### 2. EndeavourOS'in ISO Dosyasını İndirin
