@@ -22,11 +22,11 @@ Bunu yapmanın en iyi yolunun ise deneyim paylaşmak olduğunu düşünüyorum. 
 
 Arch Linux'un kendi bünyesinde herhangi bir grafik arayüzüne sahip kurulum ekranı bulunmamaktdır, bu durum Arch'ın basit ve hafif doğasını fazla uğraşmadan veya risk almadan deneyimlemek isteyenler için zorluklar oluşturabilir.
 
-Bu nedenle mevcut duruma en uygun olarak **EndeavourOS** kullanılabilir. EndeavourOS Arch tabanlı bir işletim sistemidir ve Arch ile aynı prensipleri takip eder. Aynı zamanda güncel olarak Distrowatch'a göre en popüler Arch tabanlı işletim sistemidir.
+Bu nedenle mevcut duruma en uygun olarak **EndeavourOS** kullanılabilir. EndeavourOS, Arch tabanlı bir işletim sistemidir ve Arch ile aynı prensipleri takip eder. Aynı zamanda güncel olarak Distrowatch'a göre en popüler Arch tabanlı işletim sistemidir.
 
 Arch'ı (EndeavourOS'i) kurmak için önyüklenebilir bir bellek kullanabilirsiniz. Önerilen yöntem ise (en az **2GB önerilir**) bir USB belleği EndeavourOS'i kurmak için önyüklenebilir belleğe çevirmektir.
 
-Windows 10 veya 11 sistemlerinde bu işlemi gerçekleştirebilicek **Ventoy** ve **Rufus** gibi programlar bulunmaktadır. Bu rehberde ise önerilen program Rufus'tur, çünkü kendi deneyimlerinde Rufus'u kullandım. Fakat istediğiniz ve kullanmayı bildiğiniz başka herhangi bir programı kullanmaktan çekinmeyin.
+Windows 10 veya 11 sistemlerinde bu işlemi gerçekleştirebilicek **Ventoy** ve **Rufus** gibi programlar bulunmaktadır. Bu rehberde ise önerilen program Rufus'tur, çünkü kendi deneyimlerimde Rufus'u kullandım. Fakat istediğiniz ve kullanmayı bildiğiniz başka herhangi bir programı kullanmaktan çekinmeyin.
 
 ### Önyüklenebilir USB Belleği Oluşturmanın Adımları
 
