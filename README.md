@@ -20,13 +20,13 @@ Bunu yapmanın en iyi yolunun ise deneyim paylaşmak olduğunu düşünüyorum. 
 
 ## Arch Kurulumunu Hazırlama
 
-Arch Linux'un kendisine bünyesinde herhangi bir grafik arayüzüne sahip kurulum ekranı bulunmamaktdır, bu durum Arch'ın basit ve hafif doğasını zorluklarla uğraşmadan veya risk almadan kullanmak isteyenler için zorluklar oluşturabilir.
+Arch Linux'un kendi bünyesinde herhangi bir grafik arayüzüne sahip kurulum ekranı bulunmamaktdır, bu durum Arch'ın basit ve hafif doğasını fazla uğraşmadan veya risk almadan deneyimlemek isteyenler için zorluklar oluşturabilir.
 
 Bu nedenle mevcut duruma en uygun olarak **EndeavourOS** kullanılabilir. EndeavourOS Arch tabanlı bir işletim sistemidir ve Arch ile aynı prensipleri takip eder. Aynı zamanda güncel olarak Distrowatch'a göre en popüler Arch tabanlı işletim sistemidir.
 
-Arch'ı (EndeavourOS'i) kurmak için önyüklenebilir bir bellek kullanabilirsiniz. Önerilen yöntem ise (en az **2GB önerilir**) bir USB belleği kullanmaktıp, onu EndeavourOS'i kurmak için bir önyüklenebilir belleğe çevirmektir.
+Arch'ı (EndeavourOS'i) kurmak için önyüklenebilir bir bellek kullanabilirsiniz. Önerilen yöntem ise (en az **2GB önerilir**) bir USB belleği EndeavourOS'i kurmak için önyüklenebilir belleğe çevirmektir.
 
-Windows 10 veya 11 sistemlerinde bu işlemi gerçekleştirebilicek **Ventoy** ve **Rufus** gibi programlar bulunmaktadır. Bu rehberde ise önerilen program Rufus'tur, çünkü kendi deneyimlerince onu kullandım, fakat siz lütfen istediğiniz ve kullanmayı bildiğiniz farklı herhangi bir programı kullanmaktan çekinmeyin.
+Windows 10 veya 11 sistemlerinde bu işlemi gerçekleştirebilicek **Ventoy** ve **Rufus** gibi programlar bulunmaktadır. Bu rehberde ise önerilen program Rufus'tur, çünkü kendi deneyimlerinde Rufus'u kullandım. Fakat istediğiniz ve kullanmayı bildiğiniz başka herhangi bir programı kullanmaktan çekinmeyin.
 
 ### Önyüklenebilir USB Belleği Oluşturmanın Adımları
 
@@ -36,8 +36,8 @@ Windows 10 veya 11 sistemlerinde bu işlemi gerçekleştirebilicek **Ventoy** ve
 
 #### 2. EndeavourOS'in ISO Dosyasını İndirin
 - [EndeavourOS'in resmi sitesini](https://endeavouros.com/) ziyaret edin ve listelenmiş aynalardan sisteminize uygun olan en güncel ISO dosyasını indirin.
-- 3. adım için **imza dosyasını** indirmeyi göz önünde bulundurun.
-- Bütün adımı hızlandırmak için coğrafi konumunuza en yakın olan aynayı tercih edebilirsiniz.
+- Üçüncü adım için **imza dosyasını** indirmeyi göz önünde bulundurun.
+- İşlemi hızlandırmak için coğrafi konumunuza en yakın olan aynayı tercih edebilirsiniz.
 
 #### 3. ISO Dosyasını Doğrulayın (İsteğe bağlı fakat şiddetle tavsiye edilir)
 İndirilen ISO dosyasının özgünlüğünü ve güvenirliğini doğrulamak için **GPG**'yi kullanabilirsiniz. Bu rehberde GPG'yi kullanmanın önerilen yolu ise **WSL (Linux için Windows Alt Sistemi)** aracığıyladır.
@@ -45,17 +45,16 @@ Windows 10 veya 11 sistemlerinde bu işlemi gerçekleştirebilicek **Ventoy** ve
    ```powershell
    wsl --install -d Debian
    ```
-3. Restart your computer once the installation is complete.
-
-4. Check if GPG is installed by running:
+3. Kurulum tamamlandığında bilgisayarınızı yeniden başlatın.
+4. Şunu çalıştırarak GPG'nin kurulduğundan emin olun:
    ```bash
    sudo apt install gpg
    ```
-   If it is not installed, install it using the above command.
-5. Follow the instructions on the EndeavourOS website to verify the ISO file using the **sha512** and **gpg** commands.
-6. If the verification returns **"OK"**, proceed with the next step.
+   Eğer GPG kurulu değilse üstteki komutu kullanarak kurun.
+5. EndeavourOS'in sitesindeki yönergeleri izleyerek **sha512** ve **gpg** komutlarını kullanarak ISO dosyasını doğrulayın.
+6. Eğer doğrulama **"OK"** geri dönütünü verirse bir sonraki adıma devam edin.
 
-#### 4. Create a Bootable USB with Rufus
+#### 4. Rufus'u Kullanarak Önyüklenebilir USB Oluşturma
 1. Plug in your **USB stick** and open **Rufus**.
 2. If Rufus does not automatically detect your USB, manually select it.
    > **⚠ WARNING:** Ensure you select the correct drive, as **ALL DATA WILL BE ERASED**.
