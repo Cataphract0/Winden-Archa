@@ -57,7 +57,7 @@ Windows 10 veya 11 sistemlerinde bu işlemi gerçekleştirebilicek **Ventoy** ve
 #### 4. Rufus'u Kullanarak Önyüklenebilir USB Bellek Oluşturma
 1. **USB belleğinizi** takın ve **Rufus**'u açın.
 2. Rufus USB belleğinizi kendiliğinden tespit edemezse USB belleğinizi kendiniz seçin.
-   > **⚠ DİKKAT:** **SÜRÜCÜDEKİ TÜM VERİLER SİLİNECEĞİNDEN** doğru sürücüyü seçtiğinizden emin olun.
+   > **⚠ DİKKAT:** **SÜRÜCÜDEKİ TÜM VERİLER SİLİNECEK** bu yüzden doğru sürücüyü seçtiğinizden emin olun.
 3. "Imaj Seçeneği," altından **EndeavourOS ISO** dosyasını seçin (imza dosyasına doğrulamadan sonra ihtiyaç yok).
 4. Uygun olan disk bölüm düzenini seçin:
    - Eğer bilgisayarın **UEFI**'yi destekliyorsa şunları seçin:
@@ -67,10 +67,10 @@ Windows 10 veya 11 sistemlerinde bu işlemi gerçekleştirebilicek **Ventoy** ve
      - Disk bölüm düzeni olarak **MBR**.
      - Hedef sistem olarak **BIOS ya da UEFI**.
 5. Diğer seçenekleri olduğu gibi bırakın.
-6. **BAŞLAT**'a tıklayın. İstendiği takdirde,  Rufus "ISO Imaj modunda yaz"mayı önerse bile bu seneği şu anda seç**me**yin.
+6. **BAŞLAT**'a tıklayın. İstendiği takdirde,  Rufus "ISO Imaj modunda yaz" seçeneğini önerse bile bu seçeneği şu anda seç**me**yin.
    - Bu rehber ileride yaşanabilecek sorunları önlemek için **"DD Imaj modunda yaz" seçeneğini tercih etmenizi önerir**.
 
-   > **⚠ WARNING:** Bu seçeneği tercih etmek ISO'yu USB belleğe yazdıktan sonra belleğe erişememenize sebep olabilir, bu nedenle **yalnızca bu görevin amaçları için olan** bir USB bellek kullandığınızdan emin olun.
+   > **⚠ DİKKAT:** Bu seçeneği tercih etmek ISO'yu USB belleğe yazdıktan sonra belleğe erişememenize sebep olabilir, bu nedenle **yalnızca bu görevin amaçları için olan** bir USB bellek kullandığınızdan emin olun.
 
 7. Veri kaybı hakkındaki uyarıları onaylayın ve işlemin tamamlanmasını bekleyin.
 8. Tamamlandığında **"HAZIR."** yazan yeşil bir kutu göreceksiniz.
