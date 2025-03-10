@@ -54,31 +54,31 @@ Windows 10 veya 11 sistemlerinde bu işlemi gerçekleştirebilicek **Ventoy** ve
 5. EndeavourOS'in sitesindeki yönergeleri izleyerek **sha512** ve **gpg** komutlarını kullanarak ISO dosyasını doğrulayın.
 6. Eğer doğrulama **"OK"** geri dönütünü verirse bir sonraki adıma devam edin.
 
-#### 4. Rufus'u Kullanarak Önyüklenebilir USB Oluşturma
-1. Plug in your **USB stick** and open **Rufus**.
-2. If Rufus does not automatically detect your USB, manually select it.
-   > **⚠ WARNING:** Ensure you select the correct drive, as **ALL DATA WILL BE ERASED**.
-3. Under "Image Option," select the **EndeavourOS ISO** file (the signature file is no longer needed after verification).
-4. Choose the appropriate partition scheme:
-   - If your computer supports **UEFI**, select:
-     - **GPT** as the partition scheme.
-     - **UEFI (non CSM)** as the target system.
-   - If your computer is **very old** and does **not** support UEFI, select:
-     - **MBR** as the partition scheme.
-     - **BIOS or UEFI** as the target system.
-5. Leave other options as default.
-6. Click **START**. When prompted, even if Rufus recommends choosing "Write in ISO Image mode", **do not** select that option yet.
-   - This guide **recommends selecting "Write in DD Image mode"** to avoid future issues.
+#### 4. Rufus'u Kullanarak Önyüklenebilir USB Bellek Oluşturma
+1. **USB belleğinizi** takın ve **Rufus**'u açın.
+2. Rufus USB belleğinizi kendiliğinden tespit edemezse USB belleğinizi kendiniz seçin.
+   > **⚠ DİKKAT:** **SÜRÜCÜDEKİ TÜM VERİLER SİLİNECEĞİNDEN** doğru sürücüyü seçtiğinizden emin olun.
+3. "Imaj Seçeneği," altından **EndeavourOS ISO** dosyasını seçin (imza dosyasına doğrulamadan sonra ihtiyaç yok).
+4. Uygun olan disk bölüm düzenini seçin:
+   - Eğer bilgisayarın **UEFI**'yi destekliyorsa şunları seçin:
+     - Disk bölüm düzeni olarak **GPT**.
+     - Hedef sistem olarak **UEFI (CSM yok)**.
+   - Bilgisayarınız **çok eski** ise ve UEFI'yi **desteklemiyorsa** şunları seçin:
+     - Disk bölüm düzeni olarak **MBR**.
+     - Hedef sistem olarak **BIOS ya da UEFI**.
+5. Diğer seçenekleri olduğu gibi bırakın.
+6. **BAŞLAT**'a tıklayın. İstendiği takdirde,  Rufus "ISO Imaj modunda yaz"mayı önerse bile bu seneği şu anda seç**me**yin.
+   - Bu rehber ileride yaşanabilecek sorunları önlemek için **"DD Imaj modunda yaz" seçeneğini tercih etmenizi önerir**.
 
-   > **⚠ WARNING:** Choosing this option may cause for you to not access the USB stick completely after writing the ISO to it, so make sure to use a USB stick **purely for the purposes of this task.**
+   > **⚠ WARNING:** Bu seçeneği tercih etmek ISO'yu USB belleğe yazdıktan sonra belleğe erişememenize sebep olabilir, bu nedenle **yalnızca bu görevin amaçları için olan** bir USB bellek kullandığınızdan emin olun.
 
-7. Confirm the warnings about data loss and wait for the process to complete.
-8. Once done, you will see a green box labeled **"READY."**
-9. You have now successfully created a bootable USB drive. You may now eject it if needed.
+7. Veri kaybı hakkındaki uyarıları onaylayın ve işlemin tamamlanmasını bekleyin.
+8. Tamamlandığında **"HAZIR."** yazan yeşil bir kutu göreceksiniz.
+9. Başarıyla önyüklenebilir bir USB bellek oluşturdunuz. Artık gerekiyorsa belleği çıkartabilirsiniz.
 
 ---
 
-## Installing Arch via EndeavourOS
+## EndeavourOS aracılığıyla Arch'ı Kurma
 
 - In order to install EndeavourOS to your system, insert the bootable USB drive to the device that you'd like to use Arch on while it is **not running**.
 
