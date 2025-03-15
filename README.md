@@ -80,15 +80,15 @@ Windows 10 veya 11 sistemlerinde bu işlemi gerçekleştirebilicek **Ventoy** ve
 
 ## EndeavourOS aracılığıyla Arch'ı Kurma
 
-- In order to install EndeavourOS to your system, insert the bootable USB drive to the device that you'd like to use Arch on while it is **not running**.
+- EndeavourOS'i sisteminize kurmak için tercih ettiğiniz cihaza, cihaz kapalıyken önyüklenebilir USB sürücüyü takın.
 
-Proceed with booting up your system and constantly pressing the correct key to launch into your BIOS/UEFI interface. If you don't know what the correct key is, you can search for it in your computer's / motherboard's manifacturer's website, or you can try a few common keys like DEL, F2, F10, and ESC to see which one will work.
+Sisteminizi çalıştırın ve devamlı olarak BIOS/UEFI arayüzüne girmek için olan doğru tuşa basın. Doğru tuşun hangisi olduğunu bilmiyorsanız bilgisayarınızın / anakartınızın üreticisinin websitesinde arayabilir veya DEL, F2, F10 ve ESC gibi bazı yaygın tuşları deneyebilirsiniz.
 
-> **⚠ WARNING:** If you are installing GNU/Linux on a Windows system that is infected with malware, make sure you know the correct key. If you accidently boot into your infected operating system with the USB drive inserted, it may also get infected depending on the type and behavior of the malware. This guide recommends for you to ensure that your infected system can not access the network in any way and to test the correct key **before booting the system with the USB inserted**, to safely check if you can successfully boot into your BIOS/UEFI without taking any major risks.
+> **⚠ DİKKAT:** GNU/Linux'u, kötü amaçlı yazılımla enfekte olmuş bir Windows sistemine kuruyorsanız doğru tuşu bildiğinizden emin olun. USB sürücü takılıyken yanlışlıkla enfekte olmuş işletim sistemini açarsanız kötü amaçlı yazılımın türüne ve davranışına bağlı olarak USB sürücünün de enfekte olmasına sebep olabilirsiniz. Bu rehber; BIOS/UEFI'nize büyük bir risk almadan, güvenli bir şekilde girip giremeyeceğinizi kontrol etmek için enfekte sisteminizin hiçbir şekilde ağınıza erişemediğinden emin olmanızı ve **USB takılıyken sistemi açmadan önce** doğru tuşu denemenizi önerir.
 >
-> This method is generally safe for devices that only have the operating system infected and not the boot loader / BIOS/UEFI. Proceed with caution.
+> Bu yöntem önyükleyicisi / BIOS/UEFI'si enfekte olmamış yalnızca işletim sistemi enfekte olmuş cihazlar için genellikle güvenlidir.
 >
-> You may ignore this warning if your system is not infected.
+> Sisteminiz enfekte değilse bu uyarıyı görmezden gelebilirsiniz.
 
 Once you safely boot up to your BIOS/UEFI with your bootable USB drive inserted, you can proceed by selecting the USB drive from the boot menu. If you have trouble locating it, you may need to check the sources of the manifacturer of your computer / motherboard.
 
