@@ -90,17 +90,17 @@ Sisteminizi çalıştırın ve devamlı olarak BIOS/UEFI arayüzüne girmek içi
 >
 > Sisteminiz enfekte değilse bu uyarıyı görmezden gelebilirsiniz.
 
-Once you safely boot up to your BIOS/UEFI with your bootable USB drive inserted, you can proceed by selecting the USB drive from the boot menu. If you have trouble locating it, you may need to check the sources of the manifacturer of your computer / motherboard.
+Önyüklenebilir USB sürücünüz takılıyken güvenli bir şekilde BIOS/UEFI'nizi açtığınızda önyükleme menüsünden USB sürücünüzü seçerek devam edebilirsiniz. Yerini bulmakta zorlanıyorsanız bilgisayarınızın / anakartınızın üreticisinin kaynaklarına göz atmanız gerekebilir. Once you safely boot up to your BIOS/UEFI with your bootable USB drive inserted, you can proceed by selecting the USB drive from the boot menu. If you have trouble locating it, you may need to check the sources of the manifacturer of your computer / motherboard.
 
 
-EndeavourOS comes with the Calamares system installer, which is an installer with a graphical user interface.
+EndeavourOS, görsel arayüzlü bir yükleyici olan Calamares sistem yükleyicisi ile birlikte gelir.
 
-EndeavourOS only ships with the following packages, which provide security and contribute to having a complete Arch system: Firefox, Pacman, Yay, FirewallD, Pipewire, Nvidia installer, Dracut, Power-Profiles-Daemon.
+EndeavourOS, güvenliği sağlayan ve tam bir Arch sistemine sahip olmada katkıda bulunan yalnızca şu paketler ile birlikte gelir: Firefox, Pacman, Yay, FirewallD, Pipewire, Nvidia installer, Dracut, Power-Profiles-Daemon.
 
-During the installation most of the options will be clearly understandable in your preferred language. 
+Yükleme süreci boyunca çoğu seçenek tercih ettiğiniz dilde gayet anlaşılabilir olacak.
 
 
-- In the desktop environment choosing part, this guide recommends KDE Plasma, as it is a complete desktop environment with all the basic features as Windows and an app ecosystem with a similar look and feel. It is also highly customisable. However feel free to choose any other desktop environment or window manager.
+- Masaüstü ortamı seçme kısmında; bu rehber,  tamamlanmış bir masaüstü ortamı olması ve Windows gibi basit özelliklere, benzer hissiyat ve görünüşte bir uygulama ekosistemine sahip olması sebebiyle KDE Plasma'yı tercih etmenizi önerir. Aynı zamanda KDE Plasma, yüksek oranda özelleştirilebilirdir. Yine de istediğiniz masaüstü ortamını ya da pencere yöneticisini tercih etmekten çekinmeyin.
 
 > **⚠ WARNING:** During the **"Partition"** section of the installation, you will be asked to edit your drive's partitions and choose one to install the operating system on.
 >
