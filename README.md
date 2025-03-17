@@ -104,7 +104,7 @@ Yükleme süreci boyunca çoğu seçenek tercih ettiğiniz dilde gayet anlaşıl
 
 > **⚠ DİKKAT:** Yüklemenin **"Bölme"** kısmı sırasında sürücünüzün bölmelerini düzenlemeniz ve işletim sistemini kuracağınız bölmeyi seçmeniz istenecek.
 >
-> If you prefer to dual-boot Windows with Arch, you can create a new partition while keeping your Windows partition. The minimum requirement mentioned in the official EndeavourOS website is 15 GB.
+> Windows ile Arch'ı çift-önyükleme yapmayı tercih ederseniz, Windows'un bölmesini tutarken yeni bir bölme oluşturabilirsiniz. Bunun için EndeavourOS'in websitesinde önerilen en düşük boyut 15 GB.
 >
 > However, if you prefer to completely wipe your drive (recommended for users who do not want to keep Windows on their system), you may delete all of the listed partitions, and install EndeavourOS on one of them.
 >
