@@ -102,7 +102,7 @@ Yükleme süreci boyunca çoğu seçenek tercih ettiğiniz dilde gayet anlaşıl
 
 - Masaüstü ortamı seçme kısmında; bu rehber,  tamamlanmış bir masaüstü ortamı olması ve Windows gibi basit özelliklere, benzer hissiyat ve görünüşte bir uygulama ekosistemine sahip olması sebebiyle KDE Plasma'yı tercih etmenizi önerir. Aynı zamanda KDE Plasma, yüksek oranda özelleştirilebilirdir. Yine de istediğiniz masaüstü ortamını ya da pencere yöneticisini tercih etmekten çekinmeyin.
 
-> **⚠ WARNING:** During the **"Partition"** section of the installation, you will be asked to edit your drive's partitions and choose one to install the operating system on.
+> **⚠ DİKKAT:** Yüklemenin **"Bölme"** kısmı sırasında sürücünüzün bölmelerini düzenlemeniz ve işletim sistemini kuracağınız bölmeyi seçmeniz istenecek.
 >
 > If you prefer to dual-boot Windows with Arch, you can create a new partition while keeping your Windows partition. The minimum requirement mentioned in the official EndeavourOS website is 15 GB.
 >
