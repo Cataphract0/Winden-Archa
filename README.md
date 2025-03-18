@@ -90,7 +90,7 @@ Sisteminizi çalıştırın ve devamlı olarak BIOS/UEFI arayüzüne girmek içi
 >
 > Sisteminiz enfekte değilse bu uyarıyı görmezden gelebilirsiniz.
 
-Önyüklenebilir USB sürücünüz takılıyken güvenli bir şekilde BIOS/UEFI'nizi açtığınızda önyükleme menüsünden USB sürücünüzü seçerek devam edebilirsiniz. Yerini bulmakta zorlanıyorsanız bilgisayarınızın / anakartınızın üreticisinin kaynaklarına göz atmanız gerekebilir. Once you safely boot up to your BIOS/UEFI with your bootable USB drive inserted, you can proceed by selecting the USB drive from the boot menu. If you have trouble locating it, you may need to check the sources of the manifacturer of your computer / motherboard.
+Önyüklenebilir USB sürücünüz takılıyken güvenli bir şekilde BIOS/UEFI'nizi açtığınızda önyükleme menüsünden USB sürücünüzü seçerek devam edebilirsiniz. Eğer önyükleme menüsünün yerini bulmakta zorlanıyorsanız bilgisayarınızın / anakartınızın üreticisinin kaynaklarına göz atmanız gerekebilir.
 
 
 EndeavourOS, görsel arayüzlü bir yükleyici olan Calamares sistem yükleyicisi ile birlikte gelir.
@@ -106,19 +106,19 @@ Yükleme süreci boyunca çoğu seçenek tercih ettiğiniz dilde gayet anlaşıl
 >
 > Windows ile Arch'ı çift-önyükleme yapmayı tercih ederseniz, Windows'un bölmesini tutarken yeni bir bölme oluşturabilirsiniz. Bunun için EndeavourOS'in websitesinde önerilen en düşük boyut 15 GB.
 >
-> However, if you prefer to completely wipe your drive (recommended for users who do not want to keep Windows on their system), you may delete all of the listed partitions, and install EndeavourOS on one of them.
+> Ancak, sürücünüzü tamamen temizlemeyi tercih ediyorsanız (Windows'u sistemlerinde tutmak istemeyen kullanıcılar için önerilir) listelenmiş bütün bölmeleri silip bölmelerden birine EndeavourOS'i kurmanız gerekebilir.
 >
-> Please make sure to **backup any data from your system that you would like to keep** before proceeding.
+> Lütfen ilerlemeden önce **silinmesini istemediğiniz verilerin yedeğini aldığınızdan** emin olun.
 
-You will also be presented with the choice to encrypt your disk. 
+Aynı zamanda diskinizi şifrelemek için bir seçenekle karşılaşacaksınız.
 
-Disk encryption is an option which you can choose to completely encrypt your drive, which will lead you to enter passwords more than usual. If you want to protect your data from being accessed when your drive is stolen, you should enable this option. Especially recommended for laptop users.
-
-
-When you're done with the disk partitioning, you may move on with the next steps and finish the installation.
+Disk şifreleme; normalden daha sık şifre girmenize neden olacak, diskinizi tamamen şifrelemenizi sağlayan bir seçenek. Diskiniz çalındığında verinizi erişilmekten korumak istiyorsanız bu seçeneği aktifleştirmelisiniz. Özellikle dizüstü kullanıcıları için önerilir.
 
 
-## Booting into Arch
+Diski bölme işlemi tamamlandığında, bir sonraki adıma ilerlemeli ve kurulumu tamamlamalısınız.
+
+
+## Arch'ı Açma
  
 When your installation process is finished, you will be prompted to restart your system. Once you restart you should be greeted with your new Arch installation. If not, you may need to boot into your BIOS/UEFI and change the boot order priority, or check the boot menu settings.
 
