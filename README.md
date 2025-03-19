@@ -120,9 +120,9 @@ Diski bölme işlemi tamamlandığında, bir sonraki adıma ilerlemeli ve kurulu
 
 ## Arch'ı Açma
  
-When your installation process is finished, you will be prompted to restart your system. Once you restart you should be greeted with your new Arch installation. If not, you may need to boot into your BIOS/UEFI and change the boot order priority, or check the boot menu settings.
+Kurulum süreci tamamlandığında sisteminizi yeniden başlatmanız istenecek. Yeniden başlattığınızda yeni Arch kurulumunuzla karşılanmalısınız. Eğer böyle olmazsa, BIOS/UEFI'nizi açıp önyükleme önceliğini değiştirmeniz veya önyükleme menüsü ayarlarını kontrol etmeniz gerekebilir.
 
-> **NOTE:** EndeavourOS is esentially just Arch Linux with a graphical installation screen to make process simpler and a few packages pre-installed (that have been mentioned before), which you may choose to not install most of them during the installation screen. After the installation your system will be running Arch Linux. 
+> **NOT:** EndeavourOS is esentially just Arch Linux with a graphical installation screen to make process simpler and a few packages pre-installed (that have been mentioned before), which you may choose to not install most of them during the installation screen. After the installation your system will be running Arch Linux. 
 
 This guide mentions that the software that is used in this guide will be completely free and open-source.
 
