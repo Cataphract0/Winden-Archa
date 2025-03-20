@@ -124,9 +124,9 @@ Kurulum süreci tamamlandığında sisteminizi yeniden başlatmanız istenecek. 
 
 > **NOT:** EndeavourOS is esentially just Arch Linux with a graphical installation screen to make process simpler and a few packages pre-installed (that have been mentioned before), which you may choose to not install most of them during the installation screen. After the installation your system will be running Arch Linux. 
 
-This guide mentions that the software that is used in this guide will be completely free and open-source.
+Bu rehberde kullanılacak yazılımların tamamen ücretsiz ve açık-kaynao olacağına değinmiştik.
 
-For Nvidia users: If you would also like all of the software in your system to be free and open-source, you would want to use the open source Nouveau drivers instead of the closed-source proprietary Nvidia drivers. To achieve this, you can run `sudo nvidia-inst -n` in your preferred terminal and proceed. 
+Nvidia kullanıcıları için: Sisteminizdeki yazılımın tamamının ücretsiz ve açık-kaynak olmasını isterseniz, kapalı kaynak ve tescilli olan Nvidia sürücüleri yerine açık kaynak olan Nouveau sürücülerini kullanmak isteyebilirsiniz. Bunun için tercih ettiğiniz terminalde `sudo nvidia-inst -n` komutunu çalıştırıp devam edebilirsiniz.
 
 If you are not using an Nvidia graphics card and want to keep your system fully free and open-source, you may search for any packages that might be included in your system that are related to the proprietary Nvidia drivers as the latest EndeavourOS ISO releases ship with them, and remove them.
 
