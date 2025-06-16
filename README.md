@@ -132,4 +132,4 @@ Eğer bir Nvidia ekran kartı kullanmıyorsanız ve sisteminizi tamamen özgür 
 
 ---
 
-**Bu serüvende bu rehberi izlediğiniz için teşekkürler ve yeni Arch Linux sisteminizde tebrikler!**
+**Bu serüvende bu rehberi izlediğiniz için teşekkürler, yeni Arch Linux sisteminizde tebrikler!**
