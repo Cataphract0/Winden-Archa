@@ -6,11 +6,11 @@
 
 ## Giriş
 
-**Winden-Archa**, benim tarafımdan; Windows 10/11 sistemlerinden Arch-Linux bazlı bir sisteme geçmek isteyen, işletim sistemine gereksiz yazılım katmadan ve aynı zamanda süreci mümkün olduğunca basit tutmak isteyen kişilere yardımcı olmak amacıyla yazılmıştır.
+**Winden-Archa**, benim tarafımdan; Windows 10/11 sistemlerinden Arch-Linux bazlı bir sisteme geçmek isteyen, işletim sistemine gereksiz yazılım katmadan ve süreci mümkün olduğunca basit tutmak isteyen kişilere yardımcı olmak amacıyla yazılmıştır.
 
-Bu amacı gerçekleştirmenin en iyi yolunun ise deneyim paylaşmak olduğunu düşünüyorum. Dolayısıyla, bu rehber; bu yola çıkmış olan her insana uyacak şekilde, çoğunlukla kendi deneyimime dayanarak hazırlandı.
+Bu amacı gerçekleştirmenin en iyi yolunun deneyim paylaşmak olduğunu düşünüyorum. Dolayısıyla, bu rehber; bu yola çıkmış olan her insana uyacak şekilde, çoğunlukla kendi deneyimime dayanarak hazırlandı.
 
-> **⚠ DİKKAT:** Winden-Archa, GNU/Linux hakkında belli bir bilgiye sahip olan ve uçbirimi kullanmakta özgüvenli olan kişileri hedef almakta. Bu belge her ne kadar Arch'ı kullanıcı dostu ve görsel yapmayı hedeflese de sorunları çözmek ve paketler/uygulamalar indirmek için uçbirimi kullanman gerekeceğinden lütfen geçiş yapmayı denemeden önce GNU/Linux uçbirimi hakkında yeterli araştırmayı yapmış olduğundan emin ol.
+> **⚠ DİKKAT:** Winden-Archa, GNU/Linux hakkında belli bir bilgiye sahip olan ve uçbirimi kullanmakta özgüvenli olan kişileri hedef almakta. Bu belge her ne kadar Arch'ı kullanıcı dostu ve görsel yapmayı hedeflese de sorunları çözmek ve paketler/uygulamalar indirmek için uçbirimi kullanmanız gerekeceğinden lütfen geçiş yapmayı denemeden önce GNU/Linux uçbirimi hakkında yeterli araştırmayı yapmış olduğunuzdan emin olun.
 >
 > Gelecekte yaşanabilecek karmaşaları önlemek için herhangi bir adımı denemeye yeltenmeden önce rehberin tamamını okumak önerilir.
 >
@@ -22,7 +22,7 @@ Bu amacı gerçekleştirmenin en iyi yolunun ise deneyim paylaşmak olduğunu d�
 
 Arch Linux'un kendi bünyesinde herhangi bir grafik arayüzüne sahip kurulum ekranı bulunmamaktadır, bu durum Arch'ın basit ve hafif doğasını fazla uğraşmadan veya risk almadan deneyimlemek isteyenler için zorluklar oluşturabilir.
 
-Bu nedenle mevcut duruma en uygun olarak **EndeavourOS** kullanılabilir. EndeavourOS, Arch tabanlı bir işletim sistemidir ve Arch ile aynı prensipleri takip eder. EndeavourOS, aynı zamanda güncel olarak Distrowatch'a göre en popüler Arch tabanlı işletim sistemidir.
+Bu nedenle mevcut duruma en uygun olarak **EndeavourOS** kullanılabilir. EndeavourOS, Arch tabanlı bir işletim sistemidir ve Arch ile aynı prensipleri takip eder. Aynı zamanda EndeavourOS, güncel olarak Distrowatch'a göre en popüler Arch tabanlı işletim sistemidir.
 
 Arch'ı (EndeavourOS'i) kurmak için önyüklenebilir bir bellek kullanabilirsiniz. Önerilen yöntem ise (en az **2GB depolamaya sahip**) bir USB belleği EndeavourOS'i kurmak için önyüklenebilir belleğe çevirmektir.
 
@@ -60,7 +60,7 @@ Windows 10 veya 11 sistemlerinde bu işlemi gerçekleştirebilecek **Ventoy** ve
    > **⚠ DİKKAT:** **SÜRÜCÜDEKİ TÜM VERİLER SİLİNECEK** bu yüzden doğru sürücüyü seçtiğinizden emin olun.
 3. "Imaj Seçeneği," altından **EndeavourOS ISO** dosyasını seçin (imza dosyasına doğrulamadan sonra ihtiyaç yok).
 4. Uygun olan disk bölüm düzenini seçin:
-   - Eğer bilgisayarın **UEFI**'yi destekliyorsa şunları seçin:
+   - Eğer bilgisayarınız **UEFI**'yi destekliyorsa şunları seçin:
      - Disk bölüm düzeni olarak **GPT**.
      - Hedef sistem olarak **UEFI (CSM yok)**.
    - Bilgisayarınız **çok eski** ise ve UEFI'yi **desteklemiyorsa** şunları seçin:
