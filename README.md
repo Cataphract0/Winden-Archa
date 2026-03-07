@@ -48,7 +48,7 @@ Windows 10 veya 11 sistemlerinde bu işlemi gerçekleştirebilecek **Ventoy** ve
 3. Kurulum tamamlandığında bilgisayarınızı yeniden başlatın.
 4. Şunu çalıştırarak GPG'nin kurulduğundan emin olun:
    ```bash
-   sudo apt install gpg
+   sudo apt install gnupg
    ```
    Eğer GPG kurulu değilse üstteki komutu kullanarak kurun.
 5. EndeavourOS'in sitesindeki yönergeleri izleyerek **sha512** ve **gpg** komutlarını kullanarak ISO dosyasını doğrulayın.
