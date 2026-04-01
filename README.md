@@ -8,13 +8,13 @@
 
 **Winden-Archa**, benim tarafımdan; Windows 10/11 sistemlerinden Arch-Linux bazlı bir sisteme geçmek isteyen, işletim sistemine gereksiz yazılım katmadan ve süreci mümkün olduğunca basit tutmak isteyen kişilere yardımcı olmak amacıyla yazılmıştır.
 
-Bu amacı gerçekleştirmenin en iyi yolunun deneyim paylaşmak olduğunu düşünüyorum. Dolayısıyla, bu rehber; bu yola çıkmış olan her insana uyacak şekilde, çoğunlukla kendi deneyimime dayanarak hazırlandı.
+Bu amacı gerçekleştirmenin en iyi yolunun deneyimlerimi paylaşmak olduğunu düşünüyorum. Dolayısıyla, bu rehber; bu yola çıkmış olan her insana uyacak şekilde, çoğunlukla kendi deneyimime dayanarak hazırlandı.
 
-> **⚠ DİKKAT:** Winden-Archa, GNU/Linux hakkında belli bir bilgiye sahip olan ve uçbirimi kullanmakta özgüvenli olan kişileri hedef almakta. Bu belge her ne kadar Arch'ı kullanıcı dostu ve görsel yapmayı hedeflese de sorunları çözmek ve paketler/uygulamalar indirmek için uçbirimi kullanmanız gerekeceğinden lütfen geçiş yapmayı denemeden önce GNU/Linux uçbirimi hakkında yeterli araştırmayı yapmış olduğunuzdan emin olun.
+> **⚠ DİKKAT:** Winden-Archa, GNU/Linux hakkında belli bir bilgiye sahip olan ve uçbirimi kullanmakta özgüvenli olan kişileri hedef almaktadır. Bu belge her ne kadar Arch'ı kullanıcı dostu ve görsel yapmayı hedeflese de sorunları çözmek ve paketler/uygulamalar indirmek için uçbirimi kullanmanız gerekeceğinden lütfen geçiş yapmayı denemeden önce GNU/Linux uçbirimi hakkında yeterli araştırmayı yapmış olduğunuzdan emin olun.
 >
 > Gelecekte yaşanabilecek karmaşaları önlemek için herhangi bir adımı denemeye yeltenmeden önce rehberin tamamını okumak önerilir.
 >
-> Bu rehberde kullanılması hedeflenen her şey **tamamen özgür ve açık-kaynak yazılımıdır.**
+> Bu rehberde kullanılması hedeflenen her şey **tamamen özgür ve açık kaynak yazılımdır.**
 
 ---
 
@@ -26,7 +26,7 @@ Bu nedenle mevcut duruma en uygun olarak **EndeavourOS** kullanılabilir. Endeav
 
 Arch'ı (EndeavourOS'i) kurmak için önyüklenebilir bir bellek kullanabilirsiniz. Önerilen yöntem ise (en az **2GB depolamaya sahip**) bir USB belleği EndeavourOS'i kurmak için önyüklenebilir belleğe çevirmektir.
 
-Windows 10 veya 11 sistemlerinde bu işlemi gerçekleştirebilecek **Ventoy** ve **Rufus** gibi programlar bulunmaktadır. Bu rehberde ise önerilen program Rufus'tur, çünkü kendi deneyimlerimde Rufus'u kullandım. Fakat tercih ettiğiniz veya kullanmayı bildiğiniz herhangi bir programı kullanmaktan çekinmeyin.
+Windows 10 veya 11 sistemlerinde bu işlemi gerçekleştirebilecek **Ventoy** ve **Rufus** gibi programlar bulunmaktadır. Bu rehberde ise önerilen program Rufus'tur, çünkü kendi deneyimlerimde Rufus'u kullandım. Fakat tercih ettiğiniz veya bildiğiniz herhangi bir programı kullanmaktan çekinmeyin.
 
 ### Önyüklenebilir USB Belleği Oluşturmanın Adımları
 
@@ -50,7 +50,7 @@ Windows 10 veya 11 sistemlerinde bu işlemi gerçekleştirebilecek **Ventoy** ve
    ```bash
    sudo apt install gnupg
    ```
-   Eğer GPG kurulu değilse üstteki komutu kullanarak kurun.
+   Eğer GPG kurulu değilse aynı komutu kullanarak kurun.
 5. EndeavourOS'in sitesindeki yönergeleri izleyerek **sha512** ve **gpg** komutlarını kullanarak ISO dosyasını doğrulayın.
 6. Eğer doğrulama **"OK"** geri dönütünü verirse bir sonraki adıma devam edin.
 
@@ -80,13 +80,13 @@ Windows 10 veya 11 sistemlerinde bu işlemi gerçekleştirebilecek **Ventoy** ve
 
 ## EndeavourOS Aracılığıyla Arch'ı Kurma
 
-- EndeavourOS'i sisteminize kurmak için tercih ettiğiniz cihaza, cihaz kapalıyken önyüklenebilir USB sürücüyü takın.
+- EndeavourOS'i sisteminize kurmak için kurulum yapacağınız cihaza, cihaz kapalıyken önyüklenebilir USB sürücüyü takın.
 
 Sisteminizi çalıştırın ve devamlı olarak BIOS/UEFI arayüzüne girmeyi sağlayan tuşa basın. Doğru tuşun hangisi olduğunu bilmiyorsanız bilgisayarınızın / anakartınızın üreticisinin websitesinde arayabilir veya DEL, F2, F10 ve ESC gibi bazı yaygın tuşları deneyebilirsiniz.
 
 > **⚠ DİKKAT:** GNU/Linux'u, kötü amaçlı yazılımla enfekte olmuş bir Windows sistemine kuruyorsanız doğru tuşu bildiğinizden emin olun. USB sürücü takılıyken yanlışlıkla enfekte olmuş işletim sistemini açarsanız kötü amaçlı yazılımın türüne ve davranışına bağlı olarak USB sürücünün de enfekte olmasına sebep olabilirsiniz. Bu rehber; BIOS/UEFI'nize büyük bir risk almadan, güvenli bir şekilde girip giremeyeceğinizi kontrol etmek için enfekte sisteminizin hiçbir şekilde ağınıza erişemediğinden emin olmanızı ve **USB takılıyken sistemi açmadan önce** doğru tuşu denemenizi önerir.
 >
-> Bu yöntem önyükleyicisi / BIOS/UEFI'si enfekte olmamış yalnızca işletim sistemi enfekte olmuş cihazlar için genellikle güvenlidir.
+> Bu yöntem önyükleyicisi / BIOS/UEFI'si enfekte olmamış, yalnızca işletim sistemi enfekte olmuş cihazlar için genellikle güvenlidir.
 >
 > Sisteminiz enfekte değilse bu uyarıyı görmezden gelebilirsiniz.
 
@@ -124,11 +124,11 @@ Kurulum süreci tamamlandığında sisteminizi yeniden başlatmanız istenecek. 
 
 > **NOT:** EndeavourOS; temel olarak sadece süreci daha basit tutmayı amaçlayan, çoğunu kurulum ekranı boyunca indirmemeyi tercih edebileceğiniz birkaç paketi önceden kuran (buna önceden de değinilmişti) ve görsel kurulum ekranına sahip olan bir Arch Linux. Kurulumdan sonra sisteminiz Arch Linux üzerinde çalışacak. 
 
-Bu rehberde kullanılacak yazılımların tamamen ücretsiz ve açık-kaynak olacağına değinmiştik.
+Bu rehberde kullanılacak yazılımların tamamen ücretsiz ve açık kaynak olacağına değinmiştik.
 
-Nvidia kullanıcıları için: Sisteminizdeki yazılımın tamamının ücretsiz ve açık-kaynak olmasını isterseniz, kapalı kaynak ve tescilli olan Nvidia sürücüleri yerine açık kaynak olan Nouveau sürücülerini kullanmak isteyebilirsiniz. Bunun için tercih ettiğiniz terminalde `sudo nvidia-inst -n` komutunu çalıştırıp devam edebilirsiniz.
+Nvidia kullanıcıları için: Sisteminizdeki yazılımın tamamının ücretsiz ve açık kaynak olmasını isterseniz kapalı kaynak ve tescilli olan Nvidia sürücüleri yerine açık kaynak olan Nouveau sürücülerini kullanmak isteyebilirsiniz. Bunun için tercih ettiğiniz terminalde `sudo nvidia-inst -n` komutunu çalıştırıp devam edebilirsiniz.
 
-Eğer bir Nvidia ekran kartı kullanmıyorsanız ve sisteminizi tamamen özgür ve açık-kaynak tutmak istiyorsanız; sisteminize dahil olan tescilli Nvidia sürücüleri ile bağlantılı olan herhangi bir paket EndeavourOS ISO yayınları ile birlikte geldiğinden, bu paketleri arayıp kaldırabilirsiniz.
+Eğer bir Nvidia ekran kartı kullanmıyorsanız ve sisteminizi tamamen özgür ve açık kaynak tutmak istiyorsanız; sisteminize dahil olan tescilli Nvidia sürücüleri ile bağlantılı olan herhangi bir paket, EndeavourOS ISO yayınları ile birlikte geldiğinden bu paketleri arayıp kaldırabilirsiniz.
 
 ---
 
